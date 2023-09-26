@@ -17,3 +17,13 @@ h3,
 button {
   font-family: 'Cal Sans';
 }
+
+@font-face {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("/node_modules/cal-sans/fonts/webfonts/CalSans-SemiBold.woff2") format("woff2"),
+    url("/node_modules/cal-sans/fonts/webfonts/CalSans-SemiBold.woff") format("woff"),
+    url("/node_modules/cal-sans/fonts/webfonts/CalSans-SemiBold.ttf") format("truetype");
+}
