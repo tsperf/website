@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "packageManager": "pnpm@8.7.6",
   "dependencies": {
     "@supabase/supabase-js": "^2.33.1",
     "cal-sans": "^1.0.1",
