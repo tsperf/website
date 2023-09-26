@@ -81,55 +81,106 @@ export default function App() {
 
       <main className="isolate">
         <div className="relative pt-14">
-          <div className="py-12 sm:py-32">
+          <div className="py-12 sm:py-36">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl">
                 <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl flex flex-col items-start">
                   <span>TypeScript</span>
-                  <span className="inline-block -my-4 text-transparent leading-snug bg-clip-text bg-gradient-to-br from-[#395ef9] to-[#ff32ab]">performance</span> 
+                  <span className="inline-block -my-4 text-transparent leading-snug bg-clip-text bg-gradient-to-br from-[#395ef9] to-[#ff32ab]">
+                    performance
+                  </span>
                   <span>made easy</span>
                 </h1>
                 <div className="mt-6 flex flex-col gap-6">
                   <span className="tracking-tight text-lg ">
-                    We're building a suite of open-source tools that help you visualise potential performance issues, detect regressions, decode compiler measurements and much more.
+                    We're building a suite of open-source tools that help you
+                    visualise potential performance issues, detect regressions,
+                    decode compiler measurements and much more.
                   </span>
 
-                  <ul className="flex flex-row flex-wrap gap-8 justify-between bg-gray-100 rounded px-8 pt-6 pb-5 -m-0.5">
+                  <ul className="flex flex-row flex-wrap gap-8 justify-between bg-gray-100 rounded px-8 pt-6 pb-5 -m-0.5 mt-2">
                     <li className="flex flex-col gap-2 items-center flex-[33%] sm:flex-1">
                       <div className="bg-[#6754e8] text-xl p-3 rounded text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm0-2h16V8H4v10Zm3.5-1l-1.4-1.4L8.675 13l-2.6-2.6L7.5 9l4 4l-4 4Zm4.5 0v-2h6v2h-6Z"></path></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm0-2h16V8H4v10Zm3.5-1l-1.4-1.4L8.675 13l-2.6-2.6L7.5 9l4 4l-4 4Zm4.5 0v-2h6v2h-6Z"
+                          ></path>
+                        </svg>
                       </div>
-                      <h2>
-                        CLI
-                      </h2>
+                      <h2>CLI</h2>
                     </li>
                     <li className="flex flex-col gap-2 items-center flex-[33%] sm:flex-1">
                       <div className="bg-[#6754e8] text-xl p-3 rounded text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z"></path></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z"
+                          ></path>
+                        </svg>
                       </div>
-                      <h2>
-                        Web
-                      </h2>
+                      <h2>Web</h2>
                     </li>
                     <li className="flex flex-col gap-2 items-center flex-[33%] sm:flex-1">
                       <div className="bg-[#6754e8] text-xl p-3 rounded text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"
+                          ></path>
+                        </svg>
                       </div>
-                      <h2>
-                        GitHub
-                      </h2>
+                      <h2>GitHub</h2>
                     </li>
                     <li className="flex flex-col gap-2 items-center flex-[33%] sm:flex-1">
                       <div className="bg-[#6754e8] text-xl p-3 rounded text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none"><g fill="currentColor" clipPath="url(#akarIconsVscodeFill0)"><path d="M.228 8.37s-.584-.427.117-.995L1.98 5.897s.467-.497.962-.064l15.081 11.542v5.534s-.007.87-1.11.774L.227 8.369Z"></path><path d="M4.116 11.937L.228 15.509s-.4.3 0 .837l1.805 1.66s.429.465 1.062-.065l4.121-3.158l-3.1-2.846Zm6.824.029l7.13-5.502l-.047-5.505s-.305-1.202-1.32-.576L7.216 9.11l3.724 2.856Z"></path><path d="M16.912 23.69c.414.428.916.288.916.288l5.556-2.767c.711-.49.611-1.098.611-1.098V3.588c0-.726-.735-.977-.735-.977L18.444.264c-1.052-.657-1.741.119-1.741.119s.886-.645 1.32.576v21.85c0 .15-.032.297-.095.43c-.127.259-.402.5-1.062.4l.046.051Z"></path></g><defs><clipPath id="akarIconsVscodeFill0"><path fill="#fff" d="M0 0h24v24H0z"></path></clipPath></defs></g></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <g fill="none">
+                            <g
+                              fill="currentColor"
+                              clipPath="url(#akarIconsVscodeFill0)"
+                            >
+                              <path d="M.228 8.37s-.584-.427.117-.995L1.98 5.897s.467-.497.962-.064l15.081 11.542v5.534s-.007.87-1.11.774L.227 8.369Z"></path>
+                              <path d="M4.116 11.937L.228 15.509s-.4.3 0 .837l1.805 1.66s.429.465 1.062-.065l4.121-3.158l-3.1-2.846Zm6.824.029l7.13-5.502l-.047-5.505s-.305-1.202-1.32-.576L7.216 9.11l3.724 2.856Z"></path>
+                              <path d="M16.912 23.69c.414.428.916.288.916.288l5.556-2.767c.711-.49.611-1.098.611-1.098V3.588c0-.726-.735-.977-.735-.977L18.444.264c-1.052-.657-1.741.119-1.741.119s.886-.645 1.32.576v21.85c0 .15-.032.297-.095.43c-.127.259-.402.5-1.062.4l.046.051Z"></path>
+                            </g>
+                            <defs>
+                              <clipPath id="akarIconsVscodeFill0">
+                                <path
+                                  fill="#fff"
+                                  d="M0 0h24v24H0z"
+                                ></path>
+                              </clipPath>
+                            </defs>
+                          </g>
+                        </svg>
                       </div>
-                      <h2>
-                        VSCode
-                      </h2>
+                      <h2>VSCode</h2>
                     </li>
                   </ul>
                   <span className="mt-8 tracking-tight max-w-md">
-                    Want to know when you can try it? We'll send you an email just before we launch.
+                    Want to know when you can try it? We'll send you an email
+                    just before we launch.
                   </span>
                   <div className="max-w-7xl">
                     <form
@@ -208,7 +259,8 @@ export default function App() {
                   </div>
 
                   <span className="mt-8 tracking-tight max-w-md">
-                    If you can't wait, or want to help out, send us a DM on Twitter.
+                    If you can't wait, or want to help out, send us a DM on
+                    Twitter.
                   </span>
                 </div>
               </div>
@@ -217,7 +269,7 @@ export default function App() {
         </div>
       </main>
       <footer>
-        <div className="mt-8 py-6 md:order-1 md:mt-0">
+        <div className="py-6 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5">
             made with ♥️ by{' '}
             <a
