@@ -59,8 +59,6 @@ const reducer = (state: State, action: Actions): State => {
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
 
-  console.log(state)
-
   return (
     <div className="h-full bg-white flex flex-col justify-between">
       <header className="absolute inset-x-0 top-0 z-50">
