@@ -316,6 +316,11 @@ export default function App() {
               />
             </a>
           </p>
+          <p className="text-center text-xs leading-5">
+            <a className="underline underline-offset-2 hover:text-gray-700" href="https://github.com/tsperf/website/tree/main/PRIVACY.md">
+              privacy policy
+            </a>
+          </p>
         </div>
       </footer>
     </div>
