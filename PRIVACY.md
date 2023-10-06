@@ -10,7 +10,7 @@ This privacy notice for [tsperf.dev](https://tsperf.dev) describes how we handle
 
 We do not collect or process your sensitive information.
 
-However, we collect and process your personal information (that is, your email address) when you sign up to be notified of the launch of tsperf tools.
+However, we collect and process your personal information (that is, your email address) for the purpose of notifying you about further development and the launch of tsperf tools. We do this only with your explicit consent when you sign up.
 
 If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
 
