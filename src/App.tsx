@@ -320,6 +320,8 @@ export default function App() {
               <img
                 src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
                 alt="Powered by Vercel"
+                width="116" height="24"
+                loading="lazy"
                 className="inline-block h-6 mb-0.5"
               />
             </a>
