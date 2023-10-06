@@ -286,7 +286,7 @@ export default function App() {
         </div>
       </main>
       <footer>
-        <div className="py-6 md:order-1 md:mt-0">
+        <div className="py-6 md:order-1 md:mt-0 space-y-1">
           <p className="text-center text-xs leading-5">
             made with ♥️ by{' '}
             <a
@@ -302,7 +302,15 @@ export default function App() {
             >
               Daniel
             </a>
-            {' · '}
+            {' • '}
+            <a
+              className="underline underline-offset-2 hover:text-gray-700"
+              href="https://github.com/tsperf/website/tree/main/PRIVACY.md"
+            >
+              privacy policy
+            </a>
+          </p>
+          <p className="text-center invert">
             <a
               href="https://vercel.com/?utm_source=vignette&utm_campaign=oss"
               target="_blank"
@@ -314,11 +322,6 @@ export default function App() {
                 alt="Powered by Vercel"
                 className="inline-block h-6 mb-0.5"
               />
-            </a>
-          </p>
-          <p className="text-center text-xs leading-5">
-            <a className="underline underline-offset-2 hover:text-gray-700" href="https://github.com/tsperf/website/tree/main/PRIVACY.md">
-              privacy policy
             </a>
           </p>
         </div>
