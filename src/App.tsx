@@ -81,7 +81,7 @@ export default function App() {
             aria-label="tsperf GitHub"
           >
             <svg
-              className="h-[20px] w-[20px] text-black dark:text-gray-100"
+              className="h-[20px] w-[20px] text-black"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
