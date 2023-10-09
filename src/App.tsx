@@ -270,7 +270,9 @@ export default function App() {
                     </form>
                     {state.error && (
                       <p className="text-xs text-red-500 mt-1 text-left">
-                        Something went wrong. Please try again.
+                        {state.error.code === '23505'
+                          ? "You're already on the waitlist!"
+                          : 'Something went wrong. Please try again.'}
                       </p>
                     )}
                   </div>
