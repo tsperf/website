@@ -10,7 +10,7 @@
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare"
   },
-  "packageManager": "pnpm@8.7.6",
+  "packageManager": "pnpm@9.1.1",
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.7.0",
@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "drizzle-kit": "^0.21.2",
-    "eslint": "^8.45.0",
-    "typescript": "^5.0.2",
+    "eslint": "^9.3.0",
+    "typescript": "^5.4.5",
     "wrangler": "^3.57.0"
   }
 }
