@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   eslint: { config: { stylistic: true } },
   app: {
     head: {
+      htmlAttrs: { lang: 'en' },
       title: 'TypeScript performance made easy',
       link: [{ rel: 'icon', href: '/favicon.png' }],
       meta: [
