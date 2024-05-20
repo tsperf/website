@@ -4,35 +4,25 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "lint": "eslint .",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
   },
   "packageManager": "pnpm@8.7.6",
   "dependencies": {
     "@supabase/supabase-js": "^2.33.1",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/fonts": "^0.7.0",
+    "@nuxtjs/plausible": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
     "cal-sans": "^1.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "supabase": "^1.93.0"
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@heroicons/react": "^2.0.18",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "@vitejs/plugin-react": "^4.0.3",
-    "autoprefixer": "^10.4.15",
     "eslint": "^8.45.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "fontaine": "^0.4.1",
-    "postcss": "^8.4.29",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "typescript": "^5.0.2"
   }
 }
