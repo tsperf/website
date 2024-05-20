@@ -1,24 +1,18 @@
 <script setup lang="ts">
-import { createClient } from '@supabase/supabase-js'
-import type { Database } from './database.types'
-
-const config = useRuntimeConfig()
-const supabase = createClient<Database>(config.public.supabase.host, config.public.supabase.key)
-
 const email = ref('')
 const status = ref<'loading' | 'success' | 'idle' | 'error'>('idle')
 
 async function handleSubmit () {
   status.value = 'loading'
-  const { error } = await supabase.from('subscribers').insert([{ email: email.value, subscriptions: ['waitlist'] }])
-  if (error) {
-    status.value = 'error'
-  }
-  else {
+  try {
+    await $fetch('/api/subscribe', { method: 'POST', body: { email: email.value } })
     status.value = 'success'
     setTimeout(() => {
       status.value = 'idle'
     }, 5000)
+  }
+  catch {
+    status.value = 'error'
   }
 }
 </script>
@@ -259,20 +253,6 @@ async function handleSubmit () {
             href="https://github.com/tsperf/website/tree/main/PRIVACY.md"
           >
             privacy policy
-          </a>
-        </p>
-        <p class="text-center invert">
-          <a
-            href="https://vercel.com/?utm_source=vignette&utm_campaign=oss"
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label="Powered by Vercel"
-          >
-            <img
-              src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-              alt="Powered by Vercel"
-              class="inline-block h-6 mb-0.5"
-            >
           </a>
         </p>
       </div>

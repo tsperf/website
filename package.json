@@ -12,17 +12,20 @@
   },
   "packageManager": "pnpm@8.7.6",
   "dependencies": {
-    "@supabase/supabase-js": "^2.33.1",
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.7.0",
+    "@nuxthub/core": "^0.5.17",
     "@nuxtjs/plausible": "^1.0.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "cal-sans": "^1.0.1",
+    "drizzle-orm": "^0.30.10",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.21.2",
     "eslint": "^8.45.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "wrangler": "^3.57.0"
   }
 }

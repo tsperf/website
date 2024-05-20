@@ -2,16 +2,9 @@ const description = 'A suite of open-source tools that help you visualise potent
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/plausible'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/plausible', '@nuxthub/core'],
   srcDir: 'src',
-  runtimeConfig: {
-    public: {
-      supabase: {
-        host: 'https://tolzxagdkwvomdmumxrx.supabase.co',
-        key: '',
-      },
-    },
-  },
+  hub: { database: true },
   plausible: { domain: 'tsperf.dev' },
   eslint: { config: { stylistic: true } },
   app: {
