@@ -276,6 +276,6 @@ h1,
 h2,
 h3,
 button {
-  font-family: 'Cal Sans';
+  font-family: 'Cal Sans', sans-serif;
 }
 </style>
