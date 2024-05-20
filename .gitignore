@@ -6,6 +6,9 @@
 .cache
 dist
 
+# cloudflare dev
+.wrangler
+
 # Node dependencies
 node_modules
 
