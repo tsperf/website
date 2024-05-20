@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/plausible', '@nuxthub/core'],
   srcDir: 'src',
   hub: { database: true },
-  plausible: { domain: 'tsperf.dev' },
+  plausible: { domain: 'tsperf.dev', apiHost: 'https://v.roe.dev' },
   eslint: { config: { stylistic: true } },
   app: {
     head: {
