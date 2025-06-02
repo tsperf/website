@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "lint": "eslint .",
-    "preview": "nuxi preview",
-    "postinstall": "nuxi prepare"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "packageManager": "pnpm@9.1.1",
   "dependencies": {
