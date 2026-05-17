@@ -11,7 +11,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@11.1.2",
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.7.0",
