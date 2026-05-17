@@ -1,0 +1,11 @@
+# Used by `nitro-cloudflare-dev` to expose Cloudflare bindings during `nuxt dev`.
+# The deployed Pages project reads its bindings from the Cloudflare dashboard,
+# not from this file.
+name = "tsperf-website"
+compatibility_date = "2024-09-19"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tsperf-website-local"
+database_id = "local"
+migrations_dir = "src/server/database/migrations"

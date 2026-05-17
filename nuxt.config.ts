@@ -2,9 +2,11 @@ const description = 'A suite of open-source tools that help you visualise potent
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/plausible', '@nuxthub/core'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/plausible', 'nitro-cloudflare-dev'],
   srcDir: 'src',
-  hub: { database: true },
+  nitro: {
+    preset: 'cloudflare-pages',
+  },
   plausible: { domain: 'tsperf.dev', apiHost: 'https://v.roe.dev' },
   eslint: { config: { stylistic: true } },
   app: {
